@@ -13,7 +13,7 @@ For detailed research findings and scientific interpretations, please refer to t
 ## 🔬 Methodology
 
 ### Empirical Mode Decomposition (EMD)
-This study uses the **PyEMD library** (developed by Dawid Laszuk) for signal decomposition. EMD is a data-driven method that decomposes non-stationary signals into intrinsic mode functions without requiring predetermined basis functions.
+This study uses the **[PyEMD library](https://github.com/laszukdawid/PyEMD)** (developed by Dawid Laszuk) for signal decomposition. EMD is a data-driven method that decomposes non-stationary signals into intrinsic mode functions without requiring predetermined basis functions.
 
 **Key EMD Properties:**
 - Adaptive and data-driven decomposition
@@ -173,16 +173,6 @@ This reproduction code is provided under MIT License for research and educationa
   pages={2175},
   year={2022},
   publisher={Nature Publishing Group UK London}
-}
-```
-
-**EMD Implementation:**
-```bibtex
-@software{pyemd2017,
-  title={PyEMD: Python implementation of Empirical Mode Decomposition algorithm},
-  author={Laszuk, Dawid},
-  year={2017},
-  url={https://github.com/laszukdawid/PyEMD}
 }
 ```
 
